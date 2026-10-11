@@ -1,0 +1,191 @@
+
+
+:root{
+  --bg: #f6c9dc;
+  --band: #e6247e;
+  --pink-band-dark: #c81b6a;
+  --pink-pale: #fbe4ef;
+  --ink: #16121a;
+  --white: #ffffff;
+  --card-shadow: rgba(22,18,26,0.18);
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #f6c9dc;
+    .header-box{ background:#16121a; }
+}
+
+.header-box{
+  background: var(--ink);
+  margin: 28px 24px 0 24px;
+  border-radius: 4px;
+  padding: 22px 28px 14px 28px;
+  color:#e6247e;
+  text-align: center;
+  font-family: "Fugaz One", sans-serif;
+  font-size: x-large;
+}
+
+
+.nav-bar{
+  background: #e280af;
+  width: 90%;
+  max-width: 700px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding: 0 24px;
+  margin: 20px auto 0 auto;
+  border-radius: 30px;
+  box-shadow: 0 6px 16px rgba(22,18,26,0.25);
+}
+
+.nav-bar a{
+  font-family: "Lobster Two", sans-serif;
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.nav-bar a:hover{
+  color: #c81b6a;
+}
+
+.nav-bar a:active,
+.nav-bar a.active{
+  background: #ffffff;
+  color: #c81b6a;
+}
+
+
+
+.ID{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+  min-height: 200px;
+  margin-top: 30px;
+  padding: 40px;
+  background-color: #ffffff80;
+}
+
+.ID > a{
+  flex: 1;
+  max-width: 180px;
+  align-self: flex-end;
+  margin-bottom: 40px;
+}
+
+.ID > a img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.Intro{
+
+  flex: 1;
+  padding: 40px 30px;
+  text-align: center;
+  font-family: "Lobster Two", sans-serif;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #16121a;
+}
+
+h2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.res-head ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  gap: 20px;
+}
+
+
+h4 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.right {
+  text-align: right;
+}
+
+
+.references {
+  margin-top: 40px;
+  padding: 25px;
+  
+}
+
+.references h2 {
+  text-align: center;
+}
+
+.reference {
+  margin: 0 0 15px 36px;
+  text-indent: -36px;
+  line-height: 2;
+}
+
+.social{
+text-align: center;
+margin-top: 10px;
+background-color: #ffffff80;
+}
+
+
+
+
+
+.navbar {
+  position: sticky;
+  margin-top: 20px;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  background: #c81b6a;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #e280af;
+}
+
+h2 {
+  scroll-margin-top: 60px;
+
+}
+
+.photo {
+  display: block;
+  margin: 0 auto;
+}
